@@ -19,8 +19,8 @@
 var Facebox = Class.create({
 	initialize	: function(extra_set){
 		this.settings = {
-			loading_image	: '../images/loading.gif',
-			close_image		: '../images/closelabel.gif',
+			loading_image	: 'images/loading.gif',
+			close_image		: 'images/closelabel.gif',
 			image_types		: new RegExp('\.' + ['png', 'jpg', 'jpeg', 'gif'].join('|') + '$', 'i'),
 			inited				: true,	
 			facebox_html	: '\
@@ -38,7 +38,7 @@ var Facebox = Class.create({
 	              </div> \
 	              <div class="footer"> \
 	                <a href="#" class="close"> \
-	                  <img src="../images/closelabel.gif" title="close" class="close_image" /> \
+	                  <img src="images/closelabel.gif" title="close" class="close_image" /> \
 	                </a> \
 	              </div> \
 	            </td> \
